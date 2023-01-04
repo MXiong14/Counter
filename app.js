@@ -6,3 +6,11 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
+// we are going to use the forEach method to call each function in btns which is on the HTML page. That is decrease, reset and increase.
+// the first element in the parameter is the value of the current element
+// for our eventListener, the first element in the parameter is what type of event or HTML DOM event is needed for this method to work. In this case, we use click.
+btns.forEach(function (btn) {
+    btn.addEventListener('click', function(e) {
+
+    })
+});
